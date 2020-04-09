@@ -12,3 +12,6 @@ serverless invoke local --function list --path mocks/list-event.json
 
 #delete
 serverless invoke local --function delete --path mocks/delete-event.json
+
+#billing
+serverless invoke local --function billing --path mocks/billing-event.json
